@@ -1,0 +1,27 @@
+{
+  "name": "repo",
+  "version": "1.0.0",
+  "description": "File serving",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "debug": "serve -l 3001 --debug",
+    "dev": "serve -l 3001",
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j5pu/repo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j5pu/repo/issues"
+  },
+  "homepage": "https://github.com/j5pu/repo#readme",
+  "dependencies": {
+    "serve": "latest"
+  },
+  "packageManager": "pnpm@6.30.0"
+}

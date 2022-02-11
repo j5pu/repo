@@ -1,0 +1,27 @@
+{
+  "headers": [
+    {
+      "source" : "**",
+      "headers" : [{
+        "key" : "Cache-Control",
+        "value" : "no-store"
+      }]
+    }
+  ],
+  "public": ".",
+  "redirects": [
+    { 
+      "source": "/sudoers", 
+      "destination": "https://raw.githubusercontent.com/j5pu/sudoers/main/sudoers",
+      "type": 301
+     }
+  ],
+  "unlisted": [
+    ".DS_Store",
+    ".*",
+    "*.*",
+    "LICENSE",
+    "node_modules",
+    "ssl"
+  ]
+}
